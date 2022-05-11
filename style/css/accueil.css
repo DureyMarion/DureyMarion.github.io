@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* Général */
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 26px;
+  font-family: "Roboto";
+  padding-top: 20px;
+  padding-bottom: 5px; }
+
+h3 {
+  font-size: 19px;
+  padding-bottom: 4px;
+  font-family: "Roboto"; }
+
+p {
+  font-size: 16px;
+  font-family: "Roboto"; }
+
+address {
+  font-size: 19px;
+  font-family: "Roboto"; }
+
+button {
+  background: #9356dc;
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  border: none;
+  border-radius: 30px;
+  box-shadow: 4px 4px 10px #dfdfdf;
+  height: 50px;
+  color: #FFF;
+  font-size: 18px; }
+
+button:hover {
+  background: #9f70d7;
+  background: linear-gradient(360deg, #9f70d7 0%, #ff9ce4 100%);
+  box-shadow: 4px 4px 10px #dfdfdf; }
+
+/* Footer */
+footer {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 25px; }
+  footer .logo-footer {
+    width: 110px;
+    margin: 0 0 16px; }
+
+ul {
+  list-style-type: none; }
+
+li > a {
+  color: #FFF;
+  font-family: "Roboto"; }
+  li > a .fa-utensils {
+    margin-right: 8px; }
+  li > a .fa-handshake-angle {
+    margin-right: 2px; }
+
+.item1 {
+  margin-bottom: 8px; }
+
+.item2 {
+  margin: 8px 0; }
+
+.item3 {
+  margin-top: 8px; }
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 10px #dfdfdf;
+  padding: 16px; }
+  header img {
+    width: 200px; }
+
+.lieu {
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  padding: 20px 16px;
+  font-size: 19px;
+  font-style: normal !important;
+  font-weight: 700; }
+  .lieu address {
+    font-style: normal;
+    font-weight: 400; }
+  .lieu .fa-map-marker-alt {
+    margin-right: 20px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.reservation {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 32px 32px 45px 32px;
+  background-color: #fafafa; }
+  .reservation .subtitle-reservation {
+    margin-top: 11px;
+    margin-bottom: 24px;
+    font-weight: 300; }
+  .reservation a.btn-recherche {
+    color: white !important; }
+    .reservation a.btn-recherche .btn {
+      font-size: 18px;
+      padding: 12px 24px; }
+
+.fonctionnement {
+  padding: 32px 25px; }
+  .fonctionnement .container {
+    width: 100%;
+    display: flex;
+    text-align: left; }
+  .fonctionnement .title-fonction {
+    margin-top: 0; }
+  .fonctionnement .step-number {
+    background-color: #9356DC;
+    color: white;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0; }
+  .fonctionnement ol.etapes {
+    display: flex;
+    flex-direction: column;
+    counter-reset: filter; }
+  .fonctionnement .filter-button {
+    display: flex;
+    background-color: #f6f6f6;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.125);
+    border-radius: 20px;
+    height: 60px;
+    margin: 16px 0 16px 12px; }
+  .fonctionnement .filter-text {
+    margin-top: 20px;
+    font-family: "Roboto"; }
+  .fonctionnement i.fa-mobile-alt {
+    margin-right: 16px;
+    margin-top: 21px;
+    margin-left: 25px;
+    color: #7e7e7e; }
+  .fonctionnement i.fa-list-ul {
+    margin-right: 16px;
+    margin-top: 21px;
+    margin-left: 25px;
+    color: #7e7e7e; }
+  .fonctionnement i.fa-store {
+    margin-right: 16px;
+    margin-top: 21px;
+    margin-left: 25px;
+    color: #7e7e7e; }
+
+.restaurants {
+  background-color: #f6f6f6;
+  padding: 32px 25px; }
+  .restaurants .menu-carte {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0; }
+  .restaurants .background-carte {
+    background-color: #FFF;
+    border-radius: 15px; }
+  .restaurants .img-menu {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0; }
+  .restaurants .description-menu {
+    display: flex;
+    align-items: center;
+    padding: 16px; }
+
+.fa-heart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: x-large;
+  position: absolute;
+  color: gray; }
+
+/*# sourceMappingURL=accueil.css.map */
