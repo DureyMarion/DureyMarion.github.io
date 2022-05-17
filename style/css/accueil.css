@@ -23,6 +23,14 @@ address {
   font-size: 19px;
   font-family: "Roboto"; }
 
+.step-number {
+  font-family: "Roboto";
+  font-size: 12px; }
+
+.nouveau {
+  font-family: "Roboto";
+  font-size: 14px; }
+
 button {
   background: #9356dc;
   background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
@@ -120,7 +128,7 @@ a {
   .fonctionnement .title-fonction {
     margin-top: 0; }
   .fonctionnement .step-number {
-    background-color: #9356DC;
+    background: #9356DC;
     color: white;
     border-radius: 100%;
     width: 24px;
@@ -128,11 +136,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto 0; }
+    position: absolute;
+    left: -1px;
+    margin-top: 17px; }
   .fonctionnement ol.etapes {
     display: flex;
     flex-direction: column;
-    counter-reset: filter; }
+    counter-reset: filter;
+    position: relative; }
   .fonctionnement .filter-button {
     display: flex;
     background-color: #f6f6f6;
@@ -168,12 +179,21 @@ a {
     padding: 15px 0; }
   .restaurants .background-carte {
     background-color: #FFF;
-    border-radius: 15px; }
+    border-radius: 15px;
+    position: relative; }
   .restaurants .img-menu {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 15px 15px 0 0; }
+  .restaurants .nouveau {
+    background-color: #99E2D0;
+    color: #0C7B71;
+    border-radius: 2px;
+    position: absolute;
+    padding: 8px;
+    top: 16px;
+    right: 12px; }
   .restaurants .description-menu {
     display: flex;
     align-items: center;
@@ -185,6 +205,19 @@ a {
   align-items: center;
   font-size: x-large;
   position: absolute;
-  color: gray; }
+  color: gray;
+  right: 30px; }
+
+.fancy-checkbox input[type="checkbox"],
+.custom-checkbox .checked {
+  display: none; }
+
+.custom-checkbox input[type="checkbox"]:checked ~ .checked {
+  display: inline-block;
+  background: #9356dc;
+  background: linear-gradient(180deg, #9356dc 0%, #ff79da 100%); }
+
+.custom-checkbox input[type="checkbox"]:checked ~ .unchecked {
+  display: none; }
 
 /*# sourceMappingURL=accueil.css.map */
