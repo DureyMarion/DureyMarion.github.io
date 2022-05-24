@@ -18,6 +18,11 @@ header {
         position: relative;
     }
 
+    .lien-accueil{
+        position: relative;
+        z-index: 1;
+    }
+
     i.fa-arrow-left{
         display: flex;
         justify-content: flex-start;

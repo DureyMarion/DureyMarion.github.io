@@ -84,6 +84,9 @@ header {
     justify-content: center;
     align-items: center;
     position: relative; }
+  header .lien-accueil {
+    position: relative;
+    z-index: 1; }
   header i.fa-arrow-left {
     display: flex;
     justify-content: flex-start;

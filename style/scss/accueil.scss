@@ -192,17 +192,24 @@ a{
     right: 30px;
 }
 
-
-.fancy-checkbox input[type="checkbox"],
-.custom-checkbox .checked {
-  display: none;
+.checkbox{
+    display: none;
 }
 
-.custom-checkbox input[type="checkbox"]:checked~.checked {
+.checked {
+    display: none;
+    transform: scale(0);
+}
+
+
+
+.checkbox:checked ~ .checked {
+    transform: scale(1);
+    transition-duration: .5s;
     display: inline-block;
-    background: rgb(147,86,220);
     background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
   }
+  
   .custom-checkbox input[type="checkbox"]:checked~.unchecked {
     display: none;
   }
