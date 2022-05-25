@@ -78,9 +78,9 @@ li > a {
 
 /* Loader */
 .loader {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
   background-color: rgba(255, 255, 255, 0.9);
   animation: loader 0.01s;
   animation-delay: 1.75s;
@@ -102,10 +102,10 @@ li > a {
     .loader__item--1 {
       background-color: #9356DC; }
     .loader__item--2 {
-      background-color: #FF79DA;
+      background-color: #9356DC;
       animation-delay: 0.25s; }
     .loader__item--3 {
-      background-color: #99E2D0;
+      background-color: #9356DC;
       animation-delay: 0.5s; }
 
 @keyframes loader {
