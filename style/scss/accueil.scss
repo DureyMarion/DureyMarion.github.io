@@ -180,7 +180,7 @@ a{
     }
 }
 
-
+/* Animation coeur */
 
 .fa-heart{
     display: flex;
@@ -205,6 +205,8 @@ a{
     transform: scale(1);
     transition-duration: .5s;
     display: inline-block;
+    color: transparent;
+    background-clip:text;
     background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
   }
   
