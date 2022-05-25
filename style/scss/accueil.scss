@@ -199,17 +199,17 @@ a{
 .checked {
     display: none;
     transform: scale(0);
+    color: transparent;
+    background-clip: text;
+    background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
 }
 
 .checkbox:checked ~ .checked {
     transform: scale(1);
     transition-duration: .5s;
     display: inline-block;
-    color: transparent;
-    background-clip:text;
-    background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
-  }
+}
   
-  .checkbox:checked ~ .unchecked {
+.checkbox:checked ~ .unchecked {
     display: none;
-  }
+}
