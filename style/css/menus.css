@@ -171,18 +171,19 @@ a {
     opacity: 1; } }
 /* Icon validé */
 .fa-circle-check {
-  background-color: #fff;
-  color: #99E2D0;
+  transform: scale(0);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 100px;
-  transform: rotate(180deg); }
+  transform: rotate(180deg);
+  background-color: #fff;
+  color: #99E2D0; }
 
 .fa-circle-check:hover {
-  visibility: visible;
+  transform: scale(1);
   transform: rotate(180deg);
-  transition-duration: .5s; }
+  transition-duration: 0,2s; }
 
 /* Btn commander */
 .background-btn {
