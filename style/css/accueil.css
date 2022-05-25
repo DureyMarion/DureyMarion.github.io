@@ -116,9 +116,9 @@ li > a {
   0% {
     transform: translateY(0); }
   25% {
-    transform: translateY(0.5rem); }
+    transform: translateY(8px); }
   75% {
-    transform: translateY(-0.5rem); }
+    transform: translateY(-8px); }
   to {
     transform: translateY(0); } }
 /* Header */
