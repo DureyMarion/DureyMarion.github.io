@@ -227,4 +227,14 @@ a {
 .checkbox:checked ~ .unchecked {
   display: none; }
 
+/*@keyframes{
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}*/
+
 /*# sourceMappingURL=accueil.css.map */
