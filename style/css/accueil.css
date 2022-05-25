@@ -221,7 +221,7 @@ a {
   display: inline-block;
   background: linear-gradient(180deg, #9356dc 0%, #ff79da 100%); }
 
-.custom-checkbox input[type="checkbox"]:checked ~ .unchecked {
+.checkbox:checked ~ .unchecked {
   display: none; }
 
 /*# sourceMappingURL=accueil.css.map */

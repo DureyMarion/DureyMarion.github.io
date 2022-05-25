@@ -201,8 +201,6 @@ a{
     transform: scale(0);
 }
 
-
-
 .checkbox:checked ~ .checked {
     transform: scale(1);
     transition-duration: .5s;
@@ -210,6 +208,6 @@ a{
     background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
   }
   
-  .custom-checkbox input[type="checkbox"]:checked~.unchecked {
+  .checkbox:checked ~ .unchecked {
     display: none;
   }
