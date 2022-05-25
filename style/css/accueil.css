@@ -249,6 +249,9 @@ a {
     padding: 16px; }
 
 /* Animation coeur */
+.margin-bottom {
+  margin-bottom: 40px; }
+
 .fa-heart {
   display: flex;
   justify-content: flex-end;
