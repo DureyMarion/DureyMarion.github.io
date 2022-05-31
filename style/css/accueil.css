@@ -125,9 +125,9 @@ li > a {
 header {
   display: flex;
   justify-content: center;
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   padding: 16px;
-  margin-bottom: 1px; }
+  margin-bottom: 3px; }
   header img {
     width: 200px; }
 
@@ -202,6 +202,12 @@ a {
     margin: 16px 0 16px 12px; }
   .fonctionnement .filter-button:hover {
     background-color: #F3E9FA; }
+  .fonctionnement .filter-button:hover .fa-mobile-alt {
+    color: #9356DC; }
+  .fonctionnement .filter-button:hover .fa-list-ul {
+    color: #9356DC; }
+  .fonctionnement .filter-button:hover .fa-store {
+    color: #9356DC; }
   .fonctionnement .filter-text {
     margin-top: 20px;
     font-family: "Roboto"; }
