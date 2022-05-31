@@ -293,11 +293,8 @@ a{
     display: none;
     transform: scale(0);
     background: -webkit-linear-gradient(270deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    /*color: transparent;
-    background-clip: text;
-    background: linear-gradient(180deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .checkbox:checked ~ .checked {
@@ -309,16 +306,6 @@ a{
 .checkbox:checked ~ .unchecked {
     display: none;
 }
-
-/*@keyframes{
-    from{
-        transform: scale(0);
-    }
-
-    to{
-        transform: scale(1);
-    }
-}*/
 
 /* Fin du main */
 /* Aller voir le fichier footer.scss */
