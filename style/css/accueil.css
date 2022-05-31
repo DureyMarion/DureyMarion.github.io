@@ -200,6 +200,8 @@ a {
     border-radius: 20px;
     height: 60px;
     margin: 16px 0 16px 12px; }
+  .fonctionnement .filter-button:hover {
+    background-color: #F3E9FA; }
   .fonctionnement .filter-text {
     margin-top: 20px;
     font-family: "Roboto"; }
