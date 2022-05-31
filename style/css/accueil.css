@@ -268,7 +268,7 @@ a {
 .checked {
   display: none;
   transform: scale(0);
-  background: -webkit-linear-gradient(180deg, #9356dc 0%, #ff79da 100%);
+  background: -webkit-linear-gradient(270deg, #9356dc 0%, #ff79da 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /*color: transparent;
