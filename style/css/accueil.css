@@ -125,8 +125,9 @@ li > a {
 header {
   display: flex;
   justify-content: center;
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0);
-  padding: 16px; }
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 1px; }
   header img {
     width: 200px; }
 
