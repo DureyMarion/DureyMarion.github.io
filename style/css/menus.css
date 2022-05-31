@@ -173,8 +173,7 @@ a {
 .item {
   margin: 5px;
   height: 60px;
-  width: 420px;
-  border: solid 2px grey;
+  width: 100vw;
   border-radius: 10px;
   display: flex;
   overflow: hidden; }
@@ -184,9 +183,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 5px; }
-
-.item:hover {
-  animation: fade .84s forwards; }
 
 .check {
   background-color: #99E2D0;
@@ -202,8 +198,11 @@ i.fa-circle-check {
   transition: transform .84s;
   margin-top: 15px; }
 
-.item:hover ~ .check i {
+.item:hover ~ .check {
   transform: rotate(360deg); }
+
+.item:hover {
+  animation: fade .84s forwards; }
 
 @-webkit-keyframes fade {
   from {
